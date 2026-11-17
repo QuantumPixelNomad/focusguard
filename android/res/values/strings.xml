@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FocusGuard</string>
+    <string name="apps_title">Apps on this phone</string>
+    <string name="accessibility_description">FocusGuard uses this to see which app is on screen, so it can close apps you chose to block while a focus block is running. It does not read what you type or what is shown inside apps.</string>
+</resources>

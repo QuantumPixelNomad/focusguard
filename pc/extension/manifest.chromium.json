@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "FocusGuard",
+  "version": "0.1.1",
+  "description": "Blocks distracting sites and off-topic YouTube videos while a FocusGuard block is running.",
+  "minimum_chrome_version": "120",
+  "permissions": ["tabs", "storage", "alarms"],
+  "host_permissions": ["http://127.0.0.1/*", "*://*.youtube.com/*"],
+  "background": { "service_worker": "background.js" }
+}

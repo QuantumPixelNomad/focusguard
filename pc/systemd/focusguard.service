@@ -1,0 +1,16 @@
+[Unit]
+Description=FocusGuard blocker service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 -m focusguard.daemon
+WorkingDirectory=/opt/focusguard
+Environment=PYTHONPATH=/opt/focusguard PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1
+Restart=always
+RestartSec=1
+RuntimeDirectory=focusguard
+RuntimeDirectoryPreserve=yes
+
+[Install]
+WantedBy=multi-user.target

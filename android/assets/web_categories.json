@@ -1,0 +1,26 @@
+{
+  "social": {
+    "label": "Social media",
+    "domains": ["facebook.com", "fb.com", "messenger.com", "instagram.com", "threads.net", "twitter.com", "x.com", "t.co", "tiktok.com", "snapchat.com", "pinterest.com", "linkedin.com", "tumblr.com", "reddit.com", "redd.it", "vk.com", "ok.ru", "weibo.com", "mastodon.social", "bsky.app", "discord.com", "discordapp.com", "telegram.org", "web.whatsapp.com", "quora.com", "9gag.com", "imgur.com", "tinder.com", "bumble.com", "bereal.com", "clubhouse.com", "nextdoor.com", "truthsocial.com", "gab.com"]
+  },
+  "games": {
+    "label": "Games",
+    "domains": ["store.steampowered.com", "steampowered.com", "steamcommunity.com", "epicgames.com", "gog.com", "itch.io", "roblox.com", "minecraft.net", "ea.com", "origin.com", "ubisoft.com", "blizzard.com", "battle.net", "riotgames.com", "leagueoflegends.com", "playvalorant.com", "playstation.com", "xbox.com", "nintendo.com", "twitch.tv", "kick.com", "ign.com", "gamespot.com", "kotaku.com", "polygon.com", "pcgamer.com", "eurogamer.net", "rockpapershotgun.com", "gamefaqs.gamespot.com", "nexusmods.com", "curseforge.com", "miniclip.com", "poki.com", "crazygames.com", "kongregate.com", "addictinggames.com", "armorgames.com", "y8.com", "friv.com", "coolmathgames.com", "chess.com", "lichess.org", "agar.io", "slither.io", "krunker.io", "newgrounds.com", "humblebundle.com", "fanatical.com", "op.gg", "speedrun.com", "fandom.com"]
+  },
+  "video": {
+    "label": "Video and streaming",
+    "domains": ["youtube.com", "youtu.be", "youtube-nocookie.com", "netflix.com", "primevideo.com", "disneyplus.com", "hulu.com", "max.com", "hbomax.com", "peacocktv.com", "paramountplus.com", "tv.apple.com", "crunchyroll.com", "vimeo.com", "dailymotion.com", "twitch.tv", "kick.com", "rumble.com", "bilibili.com", "shahid.mbc.net", "shahid.net", "osn.com", "starzplay.com", "viu.com", "pluto.tv", "tubitv.com", "plex.tv", "spotify.com", "soundcloud.com", "deezer.com", "anghami.com", "imdb.com", "rottentomatoes.com", "letterboxd.com", "myanimelist.net", "9anime.to", "aniwatch.to"]
+  },
+  "news": {
+    "label": "News",
+    "domains": ["cnn.com", "bbc.com", "bbc.co.uk", "nytimes.com", "washingtonpost.com", "theguardian.com", "foxnews.com", "nbcnews.com", "cbsnews.com", "abcnews.go.com", "reuters.com", "apnews.com", "bloomberg.com", "wsj.com", "ft.com", "economist.com", "aljazeera.com", "aljazeera.net", "alarabiya.net", "skynewsarabia.com", "sky.com", "news.sky.com", "dailymail.co.uk", "independent.co.uk", "telegraph.co.uk", "usatoday.com", "huffpost.com", "buzzfeed.com", "buzzfeednews.com", "vox.com", "politico.com", "thehill.com", "axios.com", "npr.org", "time.com", "newsweek.com", "forbes.com", "businessinsider.com", "cnbc.com", "news.google.com", "news.yahoo.com", "msn.com", "drudgereport.com", "rt.com", "dw.com", "france24.com", "euronews.com", "theverge.com", "techcrunch.com", "engadget.com", "arstechnica.com", "wired.com", "news.ycombinator.com", "espn.com", "skysports.com", "goal.com", "kooora.com", "bleacherreport.com"]
+  },
+  "shopping": {
+    "label": "Shopping",
+    "domains": ["amazon.com", "amazon.co.uk", "amazon.de", "amazon.ae", "amazon.sa", "amazon.eg", "ebay.com", "aliexpress.com", "alibaba.com", "temu.com", "shein.com", "etsy.com", "walmart.com", "target.com", "bestbuy.com", "noon.com", "wish.com", "zalando.com", "asos.com", "ikea.com", "newegg.com", "craigslist.org", "olx.com", "dubizzle.com", "haraj.com.sa", "jumia.com"]
+  },
+  "gambling": {
+    "label": "Gambling and betting",
+    "domains": ["bet365.com", "betfair.com", "williamhill.com", "pokerstars.com", "888.com", "888casino.com", "draftkings.com", "fanduel.com", "bwin.com", "unibet.com", "stake.com", "1xbet.com", "betway.com", "paddypower.com", "ladbrokes.com", "roobet.com"]
+  }
+}

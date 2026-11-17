@@ -1,0 +1,6 @@
+[Unit]
+Description=FocusGuard watchdog (restarts the blocker if it was stopped)
+
+[Service]
+Type=oneshot
+ExecStart=/bin/sh -c 'systemctl is-active --quiet focusguard.service || systemctl start focusguard.service; systemctl is-enabled --quiet focusguard.service || systemctl enable focusguard.service'

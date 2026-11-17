@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=FocusGuard
+GenericName=Focus and distraction blocker
+Comment=Block distracting apps and websites on a schedule
+Exec=focusguard
+Icon=security-high
+Categories=Utility;Qt;KDE;
+Keywords=focus;block;distraction;self control;schedule;

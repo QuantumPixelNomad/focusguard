@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+# Signing keys and build output never belong in the repository.
+*.jks
+*.keystore
+*.apk
+android/build/
+pc/extension/dist/
