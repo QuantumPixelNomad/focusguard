@@ -5,7 +5,7 @@ Cold Turkey, with an optional Android companion app that follows the PC's blocks
 
 | Folder | What it is | State |
 | --- | --- | --- |
-| [`pc/`](pc/) | The desktop app: a root service, a settings window with tray icon, a command-line tool and a browser extension | Version 0.3.0, tested on Kubuntu 26.10 |
+| [`pc/`](pc/) | The desktop app: a root service, a settings window with tray icon, a command-line tool and a browser extension | Version 0.3.1, tested on Kubuntu 26.10 |
 | [`android/`](android/) | The phone companion app and the PC-to-phone link | **Alpha**: partly tested, expect rough edges |
 
 <p>

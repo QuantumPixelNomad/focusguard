@@ -1,7 +1,7 @@
 {
   "social": {
     "label": "Social media",
-    "domains": ["facebook.com", "fb.com", "messenger.com", "instagram.com", "threads.net", "twitter.com", "x.com", "t.co", "tiktok.com", "snapchat.com", "pinterest.com", "linkedin.com", "tumblr.com", "reddit.com", "redd.it", "vk.com", "ok.ru", "weibo.com", "mastodon.social", "bsky.app", "discord.com", "discordapp.com", "telegram.org", "web.whatsapp.com", "quora.com", "9gag.com", "imgur.com", "tinder.com", "bumble.com", "bereal.com", "clubhouse.com", "nextdoor.com", "truthsocial.com", "gab.com"]
+    "domains": ["facebook.com", "fb.com", "messenger.com", "instagram.com", "threads.net", "twitter.com", "x.com", "t.co", "tiktok.com", "snapchat.com", "pinterest.com", "linkedin.com", "tumblr.com", "reddit.com", "redd.it", "vk.com", "ok.ru", "weibo.com", "mastodon.social", "bsky.app", "discord.com", "discordapp.com", "telegram.org", "quora.com", "9gag.com", "imgur.com", "tinder.com", "bumble.com", "bereal.com", "clubhouse.com", "nextdoor.com", "truthsocial.com", "gab.com"]
   },
   "games": {
     "label": "Games",
