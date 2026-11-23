@@ -66,6 +66,17 @@ class ScheduleTests(unittest.TestCase):
 
 
 class ConfigTests(unittest.TestCase):
+    def test_categories_leave_whatsapp_alone(self):
+        # WhatsApp desktop clients (ZapFast, WhatsApp for Linux) need web.whatsapp.com to connect at all.
+        here = os.path.dirname(__file__)
+        for path in (os.path.join(here, "..", "focusguard", "data", "web_categories.json"),
+                     os.path.join(here, "..", "..", "android", "assets", "web_categories.json")):
+            if not os.path.exists(path):
+                continue
+            with open(path) as fh:
+                for cat in json.load(fh).values():
+                    self.assertEqual([d for d in cat["domains"] if "whatsapp" in d], [], path)
+
     def test_normalize_domain(self):
         n = config.normalize_domain
         self.assertEqual(n("https://www.Example.com/path?q=1"), "example.com")

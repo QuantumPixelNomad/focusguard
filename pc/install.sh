@@ -8,11 +8,14 @@ if [ "$(id -u)" -ne 0 ]; then
 fi
 SRC="$(cd "$(dirname "$0")" && pwd)"
 DEST=/opt/focusguard
+DURING_BLOCK=0
+[ "${1:-}" = "--during-block" ] && DURING_BLOCK=1
 
-if [ -S /run/focusguard/control.sock ] && command -v focusguardctl >/dev/null 2>&1; then
+if [ "$DURING_BLOCK" -eq 0 ] && [ -S /run/focusguard/control.sock ] && command -v focusguardctl >/dev/null 2>&1; then
     if focusguardctl status 2>/dev/null | grep -q "Blocking is ON" && \
        focusguardctl status 2>/dev/null | grep -q "Strict mode: on"; then
-        echo "A strict block is running. Upgrade after it ends." >&2
+        echo "A strict block is running. Upgrade after it ends, or run: sudo ./install.sh --during-block" >&2
+        echo "(that upgrades now and keeps the block, strict mode and your settings as they are)." >&2
         exit 1
     fi
 fi

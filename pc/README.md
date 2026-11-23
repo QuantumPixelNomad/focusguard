@@ -23,6 +23,10 @@ This installs Python's PyQt6 package through apt, copies the program to `/opt/fo
 `focusguard` system service. Open **FocusGuard** from the application menu (or run `focusguard`).
 A tray icon starts with your next login.
 
+Upgrading uses the same command. While a strict block is running the installer stops, so that a block cannot be
+undone by accident. To upgrade anyway, run `sudo ./install.sh --during-block`: your settings, the block and strict
+mode all stay as they are.
+
 ### Add the browser extension
 
 Website blocking works in every program through the hosts file without the extension. The extension adds
